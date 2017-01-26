@@ -1,0 +1,164 @@
+body{
+	background-color: black;
+	background-image: url("https://68.media.tumblr.com/27a74273bc8dbed1aa62041ff8854782/tumblr_o8bmzr8TMc1v54eezo1_500.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#description{
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 63%;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: 20px;
+	color: #4aaaa5;
+}
+
+ 
+#header {
+	-webkit-text-stroke-width: 6px;
+   	-webkit-text-stroke-color: black;
+	margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 100px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: white;
+	border: black;
+	border-width: 10px;
+	transform: translate(-50%, -50%)
+}
+
+.breadcrumb{
+	padding: 40px 60px;
+	top: 10%;
+    margin-bottom: 1px;
+    list-style: none;
+    background-color: black;
+    opacity: .6;
+    border-radius: 4px;
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+
+}
+
+ul a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#header-block {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	width: 300px;
+	height: 600px;
+}
+#block{
+	margin: auto;
+	background: black;
+	opacity: .6;
+	position: absolute;
+	top: 30%;
+	height: 100%;
+	width: 100%;
+}
+	
+#text{
+	position: absolute;
+	top: 40%;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+	color: #4aaaa5;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	
+}
+#kevpic{
+	margin: auto;
+	position: absolute;
+	top: 108%;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+#contactbox{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	width: 300px;
+	height: 600px;
+	
+
+}
+
+#block2{
+	background: black;
+	margin: auto;
+	opacity: .6;
+	position: absolute;
+	top: 30%;
+	height: 100%;
+	width: 100%;
+}
+#email-picture{
+	position: absolute;
+	top: 40%;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+#github{
+
+	position: absolute;
+	top: 55%;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+}
+
+
+
+#call-pic {
+	position: absolute;
+	top: 70%;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	
+	
+
+}
+
+	
+	
+}
+
+
+
+.absolute {
+	position: absolute;
+}
+
